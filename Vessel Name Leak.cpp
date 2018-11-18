@@ -26,7 +26,7 @@ int main() {
 		cout << qLine << " "; // Print to console and add spaces.
 		{
 			if (cur_l == end_l) { // If "cur_l" value matches "end_l"
-				break; // and then finish the program.
+				break; // end the loop.
 			}
 			cur_l++; // Add a value to "cur_l".
 		}
